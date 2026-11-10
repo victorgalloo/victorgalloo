@@ -19,7 +19,7 @@ Seis pasos, cada uno reanudable:
 
 ## Cómo está armado
 
-Un solo script de Python, con sus dependencias declaradas en el encabezado. La extracción va por lotes, que cuestan la mitad que las llamadas una por una.
+Un solo script de Python, con sus dependencias declaradas en el encabezado. La extracción va por lotes, que cuestan la mitad que las llamadas una por una, y corre con los créditos de Claude for Startups de SuperLeads.
 
 ## Decisiones
 

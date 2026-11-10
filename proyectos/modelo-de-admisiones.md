@@ -44,6 +44,8 @@ flowchart LR
 
 Worker de Cloudflare para extraer y anonimizar. En AWS: S3 para los datos, SageMaker para correr NVIDIA Nemotron dentro de un contenedor de vLLM, en GPU bajo demanda o spot. Python para armar los pares y evaluar.
 
+El cómputo corre con los créditos de AWS Activate de SuperLeads, que también forma parte de NVIDIA Inception.
+
 ## Decisiones
 
 - **Medir antes de entrenar.** Si el modelo sin ajustar ya empata, entrenar no se justifica.
