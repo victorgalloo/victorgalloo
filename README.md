@@ -17,6 +17,9 @@ El código de SuperLeads es de la casa y vive en repos privados. Aquí está lo 
 | [Generador de video](proyectos/generador-de-video.md) | De una idea escrita a un video listo para publicar | Remotion, React |
 | [Publicador](proyectos/publicador.md) | Publica en cada red lo que ya está aprobado, una sola vez | Cloudflare Workers, D1, R2 |
 | [Prospecta](proyectos/prospecta.md) | Cruza la cartera con quién se está anunciando hoy | TypeScript, navegador |
+| [Modelo de admisiones](proyectos/modelo-de-admisiones.md) | Ajustar un modelo abierto con conversaciones anónimas, y medir antes de entrenar | NVIDIA Nemotron, AWS SageMaker, S3 |
+| [Análisis de llamadas](proyectos/analisis-de-llamadas.md) | Qué objeciones se repiten en las llamadas grabadas | Python, lotes |
+| [Inventario comercial](proyectos/inventario-comercial.md) | Un plan donde cada cifra se contó en la fuente | Datos de cada sistema |
 | [Rutinas con agentes](proyectos/rutinas-con-agentes.md) | Un agente corre mi operación diaria y corrige sus propias rutinas | Servidor propio, cron, MCP |
 
 Lo personal: [victorgallo.com](https://victorgallo.com) (sitio estático armado por un script, servido por un Worker) y [omona](https://github.com/victorgalloo/omona), un asistente de ventas por WhatsApp para pymes.
