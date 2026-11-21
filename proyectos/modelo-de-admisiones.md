@@ -55,4 +55,6 @@ El cómputo corre con los créditos de AWS Activate de SuperLeads, que también 
 
 ## Estado
 
-En curso. Datos extraídos y anonimizados, set de prueba armado y evaluación del modelo base en proceso. Todavía no hay un resultado que presumir. Código privado.
+En prueba. Corte de noviembre de 2026: en un examen a ciegas de 300 mensajes reales, el sistema con nuestras reglas obtuvo 8.2 de 10 con Claude en Amazon Bedrock y 6.7 con nuestro Nemotron entrenado, contra 4.2 de la IA que hoy usan las escuelas. Los jueces son modelos, no personas, y todavía no ha conversado con familias reales.
+
+Resultados completos, método y advertencias: [el caso con AWS y NVIDIA](https://github.com/victorgalloo/superleads-ai-aws-nvidia/blob/main/README.es.md). Código privado.

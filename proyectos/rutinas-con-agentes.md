@@ -2,6 +2,8 @@
 
 Un agente corre mi operación diaria en un servidor. Y cuando una rutina falla, él mismo la corrige.
 
+Esta ficha es el resumen. Cómo dirijo al equipo completo de agentes está en [Constanza Harness](constanza-harness.md).
+
 ## Qué resuelve
 
 Vender deja poco tiempo para lo demás: publicar, escribir, revisar el SEO, buscar señales de compra, armar el resumen del día. Son tareas que se repiten y que tienen reglas. Las reglas se pueden escribir.
