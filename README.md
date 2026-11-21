@@ -25,7 +25,7 @@ Corte del 21 de noviembre de 2026. Estas cifras salen de mi tablero interno de m
 | Qué | Cifra | Qué cuenta |
 |---|---|---|
 | Agentes de IA con un área a su cargo | 25 | Uno por red social, SEO, métricas, clientes, eventos y más |
-| Rutinas activas | 62 | Tareas con horario, procedimiento escrito y resultado esperado |
+| Rutinas activas | 62 | Las de mi equipo: tareas con horario, procedimiento escrito y resultado esperado. El servidor completo, con las del resto de SuperLeads y las internas, corre más |
 | Veces que trabajaron en 3 días | 166 | Del 18 al 20 de noviembre; no cuenta las que corren cada pocos minutos |
 | Pedidos míos registrados | 134, con 81% resueltos | Todo lo que pido queda anotado hasta que se cierra |
 | Tiempo en contestarme | 3.3 minutos (mediana) | 14 de 14 mensajes contestados en el periodo |

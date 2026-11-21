@@ -66,7 +66,7 @@ As of November 21, 2026, from the internal metrics board.
 | What | Figure |
 |---|---|
 | Agents, each owning one area | 25 |
-| Active routines | 62 |
+| Active routines (my team only) | 62 |
 | Times they worked from November 18 to 20 | 166 |
 | Routines that failed on their last run | 3 |
 | Time to answer me (median) | 3.3 minutes |

@@ -66,7 +66,7 @@ Corte del 21 de noviembre de 2026, del tablero interno de métricas.
 | Qué | Cifra |
 |---|---|
 | Agentes con un área a su cargo | 25 |
-| Rutinas activas | 62 |
+| Rutinas activas (las de mi equipo) | 62 |
 | Veces que trabajaron del 18 al 20 de noviembre | 166 |
 | Rutinas con una falla en su última vuelta | 3 |
 | Tiempo en contestarme (mediana) | 3.3 minutos |

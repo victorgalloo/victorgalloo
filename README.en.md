@@ -25,7 +25,7 @@ As of November 21, 2026. These figures come from my internal metrics board; an a
 | What | Figure | What it counts |
 |---|---|---|
 | AI agents, each owning one area | 25 | One per social network, SEO, metrics, clients, events and more |
-| Active routines | 62 | Scheduled tasks with a written procedure and an expected result |
+| Active routines | 62 | My team only: scheduled tasks with a written procedure and an expected result. The whole server, with the rest of SuperLeads and internal ones, runs more |
 | Times they worked in 3 days | 166 | November 18 to 20; excludes those that run every few minutes |
 | My requests on record | 134, with 81% resolved | Everything I ask for stays on the list until it is closed |
 | Time to answer me | 3.3 minutes (median) | 14 of 14 messages answered in the period |
