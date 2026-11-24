@@ -61,15 +61,15 @@ Only what truly needs a person reaches me: an access, money, something legal or 
 
 ## In numbers
 
-As of November 21, 2026, from the internal metrics board.
+As of November 24, 2026, from the internal metrics board.
 
 | What | Figure |
 |---|---|
-| Agents, each owning one area | 25 |
-| Active routines (my team only) | 62 |
-| Times they worked from November 18 to 20 | 166 |
-| Routines that failed on their last run | 3 |
-| Time to answer me (median) | 3.3 minutes |
+| Agents, each owning one area | 35 |
+| Active routines (my team only) | 97 |
+| Times they worked from November 21 to 23 | 285 |
+| Routines that failed on their last run | 0 (3 at the November 21 cut, since fixed) |
+| Time to answer me (median) | 2.7 minutes |
 
 ## How it is built
 

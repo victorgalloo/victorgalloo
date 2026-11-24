@@ -20,18 +20,18 @@ SuperLeads' code is proprietary and lives in private repositories. This profile 
 
 ## At a glance
 
-As of November 21, 2026. These figures come from my internal metrics board; an agent refreshes them every 3 days.
+As of November 24, 2026. These figures come from my internal metrics board; an agent refreshes them every 3 days.
 
 | What | Figure | What it counts |
 |---|---|---|
-| AI agents, each owning one area | 25 | One per social network, SEO, metrics, clients, events and more |
-| Active routines | 62 | My team only: scheduled tasks with a written procedure and an expected result. The whole server, with the rest of SuperLeads and internal ones, runs more |
-| Times they worked in 3 days | 166 | November 18 to 20; excludes those that run every few minutes |
-| My requests on record | 134, with 81% resolved | Everything I ask for stays on the list until it is closed |
-| Time to answer me | 3.3 minutes (median) | 14 of 14 messages answered in the period |
+| AI agents, each owning one area | 35 | One per social network, SEO, metrics, clients, events and more |
+| Active routines | 97 | My team only: scheduled tasks with a written procedure and an expected result. The whole server, with the rest of SuperLeads and internal ones, runs more |
+| Times they worked in 3 days | 285 | November 21 to 23; excludes those that run every few minutes |
+| My requests on record | 205, with 72% resolved | Everything I ask for stays on the list until it is closed |
+| Time to answer me | 2.7 minutes (median) | 23 of 26 messages answered in the period |
 | Work to date | About 1,290 saved changes across 540 sessions | August 11 to November 15, 2026 |
 
-What went wrong is counted too: at this cut, 3 of the 62 routines failed on their last run and are being fixed.
+What went wrong is counted too: at this cut, 3 of 26 messages went unanswered. None of the 97 routines failed on its last run; at the November 21 cut, 3 had failed, and they have since been fixed.
 
 ## What I build
 
@@ -133,7 +133,7 @@ flowchart TB
 | Mistral for Startups | Application sent on November 16, 2026; waiting | — |
 | AWS Community Builders | On the waitlist since November 20, 2026 | — |
 
-I also contribute to the open-source project [Hermes Agent](https://github.com/NousResearch/hermes-agent), which Constanza runs on: 4 open pull requests as of November 21, 2026.
+I also contribute to the open-source project [Hermes Agent](https://github.com/NousResearch/hermes-agent), which Constanza runs on: 5 open pull requests as of November 24, 2026.
 
 Detail, with what was achieved and what comes next: [Programs and partners](en/programs.md).
 
@@ -141,7 +141,7 @@ Detail, with what was achieved and what comes next: [Programs and partners](en/p
 
 **Achieved with what was received (October and November 2026)**
 
-- A commercial operation that works with 25 agents and 62 routines, running all day in the AWS Mexico region.
+- A commercial operation that works with 35 agents and 97 routines (as of November 24, 2026), running all day in the AWS Mexico region.
 - Our own admissions AI, trained on NVIDIA Nemotron with anonymized conversations, and a blind exam that tells us which system to trust with a school. Results and caveats: [the AWS and NVIDIA case](https://github.com/victorgalloo/superleads-ai-aws-nvidia).
 - Everything documented in public, in Spanish and English, with dated figures and with what failed.
 

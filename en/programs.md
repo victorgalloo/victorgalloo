@@ -2,7 +2,7 @@
 
 [Leer en español](../programas.md) · [Back to the profile](../README.en.md)
 
-SuperLeads has grown 100% bootstrapped. The programs below pay for part of the compute and open doors. This page says what was received, what was done with it and what comes next. As of November 21, 2026.
+SuperLeads has grown 100% bootstrapped. The programs below pay for part of the compute and open doors. This page says what was received, what was done with it and what comes next. As of November 24, 2026.
 
 ## Where we stand
 
@@ -54,7 +54,7 @@ The full plan and what is being requested: [Roadmap and credits ask](https://git
 ## What we give back
 
 - **Public documentation,** in Spanish and English, with dated figures and with the attempts that failed.
-- **Open-source contributions.** 4 open pull requests to [Hermes Agent](https://github.com/NousResearch/hermes-agent) as of November 21, 2026.
+- **Open-source contributions.** 5 open pull requests to [Hermes Agent](https://github.com/NousResearch/hermes-agent) as of November 24, 2026.
 - **A case in Spanish and in Mexico.** Constanza runs in the AWS Mexico region, and the problem we work on belongs to schools in Latin America.
 - **What we learn, in writing.** Articles on admissions at [victorgallo.com](https://victorgallo.com).
 

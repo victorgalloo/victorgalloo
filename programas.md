@@ -2,7 +2,7 @@
 
 [Read in English](en/programs.md) · [Volver al perfil](README.md)
 
-SuperLeads ha crecido 100% con recursos propios. Los programas de abajo pagan una parte del cómputo y abren puertas. Aquí está qué se recibió, qué se hizo con eso y qué sigue. Corte del 21 de noviembre de 2026.
+SuperLeads ha crecido 100% con recursos propios. Los programas de abajo pagan una parte del cómputo y abren puertas. Aquí está qué se recibió, qué se hizo con eso y qué sigue. Corte del 24 de noviembre de 2026.
 
 ## Dónde estamos
 
@@ -54,7 +54,7 @@ El plan completo y lo que se solicita: [Plan y solicitud de créditos](https://g
 ## Lo que devolvemos
 
 - **Documentación pública,** en español y en inglés, con cifras fechadas y con los intentos que fallaron.
-- **Aportes a código abierto.** 4 propuestas de mejora abiertas en [Hermes Agent](https://github.com/NousResearch/hermes-agent) al 21 de noviembre de 2026.
+- **Aportes a código abierto.** 5 propuestas de mejora abiertas en [Hermes Agent](https://github.com/NousResearch/hermes-agent) al 24 de noviembre de 2026.
 - **Un caso en español y en México.** Constanza corre en la región de AWS en México, y el problema que atacamos es de escuelas de Latinoamérica.
 - **Lo aprendido, por escrito.** Artículos sobre admisiones en [victorgallo.com](https://victorgallo.com).
 

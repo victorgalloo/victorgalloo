@@ -20,18 +20,18 @@ El código de SuperLeads es de la casa y vive en repositorios privados. Aquí es
 
 ## De un vistazo
 
-Corte del 21 de noviembre de 2026. Estas cifras salen de mi tablero interno de métricas y un agente las pone al día cada 3 días.
+Corte del 24 de noviembre de 2026. Estas cifras salen de mi tablero interno de métricas y un agente las pone al día cada 3 días.
 
 | Qué | Cifra | Qué cuenta |
 |---|---|---|
-| Agentes de IA con un área a su cargo | 25 | Uno por red social, SEO, métricas, clientes, eventos y más |
-| Rutinas activas | 62 | Las de mi equipo: tareas con horario, procedimiento escrito y resultado esperado. El servidor completo, con las del resto de SuperLeads y las internas, corre más |
-| Veces que trabajaron en 3 días | 166 | Del 18 al 20 de noviembre; no cuenta las que corren cada pocos minutos |
-| Pedidos míos registrados | 134, con 81% resueltos | Todo lo que pido queda anotado hasta que se cierra |
-| Tiempo en contestarme | 3.3 minutos (mediana) | 14 de 14 mensajes contestados en el periodo |
+| Agentes de IA con un área a su cargo | 35 | Uno por red social, SEO, métricas, clientes, eventos y más |
+| Rutinas activas | 97 | Las de mi equipo: tareas con horario, procedimiento escrito y resultado esperado. El servidor completo, con las del resto de SuperLeads y las internas, corre más |
+| Veces que trabajaron en 3 días | 285 | Del 21 al 23 de noviembre; no cuenta las que corren cada pocos minutos |
+| Pedidos míos registrados | 205, con 72% resueltos | Todo lo que pido queda anotado hasta que se cierra |
+| Tiempo en contestarme | 2.7 minutos (mediana) | 23 de 26 mensajes contestados en el periodo |
 | Trabajo acumulado | Unos 1,290 cambios guardados en 540 sesiones | Del 11 de agosto al 15 de noviembre de 2026 |
 
-Lo que no salió bien también se cuenta: en este corte, 3 de las 62 rutinas tuvieron una falla en su última vuelta y están en corrección.
+Lo que no salió bien también se cuenta: en este corte, 3 de 26 mensajes quedaron sin contestar. Ninguna de las 97 rutinas falló en su última vuelta; en el corte del 21 de noviembre habían fallado 3, que ya se corrigieron.
 
 ## Lo que construyo
 
@@ -131,7 +131,7 @@ flowchart TB
 | Mistral for Startups | Postulación enviada el 16 de noviembre de 2026; en espera | — |
 | AWS Community Builders | En lista de espera desde el 20 de noviembre de 2026 | — |
 
-También aporto al proyecto abierto [Hermes Agent](https://github.com/NousResearch/hermes-agent), sobre el que corre Constanza: 4 propuestas de mejora abiertas al 21 de noviembre de 2026.
+También aporto al proyecto abierto [Hermes Agent](https://github.com/NousResearch/hermes-agent), sobre el que corre Constanza: 5 propuestas de mejora abiertas al 24 de noviembre de 2026.
 
 Detalle, con lo logrado y lo que sigue: [Programas y aliados](programas.md).
 
@@ -139,7 +139,7 @@ Detalle, con lo logrado y lo que sigue: [Programas y aliados](programas.md).
 
 **Lo logrado con lo recibido (octubre y noviembre de 2026)**
 
-- Una operación comercial que trabaja con 25 agentes y 62 rutinas, encendida todo el día en la región de AWS en México.
+- Una operación comercial que trabaja con 35 agentes y 97 rutinas (corte del 24 de noviembre de 2026), encendida todo el día en la región de AWS en México.
 - Una IA de admisiones propia, entrenada sobre NVIDIA Nemotron con conversaciones anónimas, y un examen a ciegas que dice a qué sistema confiarle una escuela. Resultados y advertencias: [el caso con AWS y NVIDIA](https://github.com/victorgalloo/superleads-ai-aws-nvidia/blob/main/README.es.md).
 - Todo documentado en público, en español y en inglés, con cifras fechadas y con lo que falló.
 

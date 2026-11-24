@@ -61,15 +61,15 @@ A mí sólo me llega lo que de verdad necesita una persona: un acceso, dinero, a
 
 ## En números
 
-Corte del 21 de noviembre de 2026, del tablero interno de métricas.
+Corte del 24 de noviembre de 2026, del tablero interno de métricas.
 
 | Qué | Cifra |
 |---|---|
-| Agentes con un área a su cargo | 25 |
-| Rutinas activas (las de mi equipo) | 62 |
-| Veces que trabajaron del 18 al 20 de noviembre | 166 |
-| Rutinas con una falla en su última vuelta | 3 |
-| Tiempo en contestarme (mediana) | 3.3 minutos |
+| Agentes con un área a su cargo | 35 |
+| Rutinas activas (las de mi equipo) | 97 |
+| Veces que trabajaron del 21 al 23 de noviembre | 285 |
+| Rutinas con una falla en su última vuelta | 0 (3 en el corte del 21 de noviembre, ya corregidas) |
+| Tiempo en contestarme (mediana) | 2.7 minutos |
 
 ## Cómo está armado
 
