@@ -61,19 +61,19 @@ Only what truly needs a person reaches me: an access, money, something legal or 
 
 ## In numbers
 
-As of November 24, 2026, from the internal metrics board.
+As of November 27, 2026, from the internal metrics board.
 
 | What | Figure |
 |---|---|
-| Agents, each owning one area | 35 |
-| Active routines (my team only) | 97 |
-| Times they worked from November 21 to 23 | 285 |
-| Routines that failed on their last run | 0 (3 at the November 21 cut, since fixed) |
-| Time to answer me (median) | 2.7 minutes |
+| Agents, each owning one area | 44 |
+| Active routines (my team only) | 104 |
+| Times they worked from November 24 to 26 | 306 |
+| Routines that failed on their last run | 4 (0 at the November 24 cut) |
+| Time to answer me (median) | 2.5 minutes |
 
 ## How it is built
 
-A server running all day in the AWS Mexico region, with Claude on Amazon Bedrock as the model. Constanza runs on [Hermes Agent](https://github.com/NousResearch/hermes-agent), an open-source project I also contribute to. The page sits behind SuperLeads' sign-in.
+A server running all day in the AWS Mexico region, with Claude on Amazon Bedrock as the model; since November 2026 several routines use Gemini on Vertex AI, with Google credits. Constanza runs on [Hermes Agent](https://github.com/NousResearch/hermes-agent), an open-source project I also contribute to. The page sits behind SuperLeads' sign-in.
 
 SuperLeads' management has its own team of agents on the same page.
 

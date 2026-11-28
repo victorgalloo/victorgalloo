@@ -61,19 +61,19 @@ A mí sólo me llega lo que de verdad necesita una persona: un acceso, dinero, a
 
 ## En números
 
-Corte del 24 de noviembre de 2026, del tablero interno de métricas.
+Corte del 27 de noviembre de 2026, del tablero interno de métricas.
 
 | Qué | Cifra |
 |---|---|
-| Agentes con un área a su cargo | 35 |
-| Rutinas activas (las de mi equipo) | 97 |
-| Veces que trabajaron del 21 al 23 de noviembre | 285 |
-| Rutinas con una falla en su última vuelta | 0 (3 en el corte del 21 de noviembre, ya corregidas) |
-| Tiempo en contestarme (mediana) | 2.7 minutos |
+| Agentes con un área a su cargo | 44 |
+| Rutinas activas (las de mi equipo) | 104 |
+| Veces que trabajaron del 24 al 26 de noviembre | 306 |
+| Rutinas con una falla en su última vuelta | 4 (0 en el corte del 24 de noviembre) |
+| Tiempo en contestarme (mediana) | 2.5 minutos |
 
 ## Cómo está armado
 
-Un servidor encendido todo el día en la región de AWS en México, con Claude en Amazon Bedrock como modelo. Constanza corre sobre [Hermes Agent](https://github.com/NousResearch/hermes-agent), un proyecto abierto al que también aporto mejoras. La página vive detrás del inicio de sesión de SuperLeads.
+Un servidor encendido todo el día en la región de AWS en México, con Claude en Amazon Bedrock como modelo; desde noviembre de 2026 varias rutinas usan Gemini en Vertex AI, con créditos de Google. Constanza corre sobre [Hermes Agent](https://github.com/NousResearch/hermes-agent), un proyecto abierto al que también aporto mejoras. La página vive detrás del inicio de sesión de SuperLeads.
 
 La dirección de SuperLeads tiene su propio equipo de agentes en la misma página.
 

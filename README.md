@@ -20,24 +20,24 @@ El código de SuperLeads es de la casa y vive en repositorios privados. Aquí es
 
 ## De un vistazo
 
-Corte del 24 de noviembre de 2026. Estas cifras salen de mi tablero interno de métricas y un agente las pone al día cada 3 días.
+Corte del 27 de noviembre de 2026. Estas cifras salen de mi tablero interno de métricas y un agente las pone al día cada 3 días.
 
 | Qué | Cifra | Qué cuenta |
 |---|---|---|
-| Agentes de IA con un área a su cargo | 35 | Uno por red social, SEO, métricas, clientes, eventos y más |
-| Rutinas activas | 97 | Las de mi equipo: tareas con horario, procedimiento escrito y resultado esperado. El servidor completo, con las del resto de SuperLeads y las internas, corre más |
-| Veces que trabajaron en 3 días | 285 | Del 21 al 23 de noviembre; no cuenta las que corren cada pocos minutos |
-| Pedidos míos registrados | 205, con 72% resueltos | Todo lo que pido queda anotado hasta que se cierra |
-| Tiempo en contestarme | 2.7 minutos (mediana) | 23 de 26 mensajes contestados en el periodo |
-| Trabajo acumulado | Unos 1,290 cambios guardados en 540 sesiones | Del 11 de agosto al 15 de noviembre de 2026 |
+| Agentes de IA con un área a su cargo | 44 | Uno por red social, SEO, métricas, clientes, eventos y más |
+| Rutinas activas | 104 | Las de mi equipo: tareas con horario, procedimiento escrito y resultado esperado. El servidor completo, con las del resto de SuperLeads y las internas, corre más |
+| Veces que trabajaron en 3 días | 306 | Del 24 al 26 de noviembre; no cuenta las que corren cada pocos minutos |
+| Pedidos míos registrados | 339 (243 cerrados; 56% de los 91 nuevos del periodo, resueltos) | Todo lo que pido queda anotado hasta que se cierra |
+| Tiempo en contestarme | 2.5 minutos (mediana) | 5 de 5 mensajes contestados en la página en el periodo |
+| Trabajo acumulado | Unos 1,290 cambios guardados en 540 sesiones | Del 11 de agosto al 15 de noviembre de 2026; del 24 al 26 de noviembre se sumaron 259 cambios en 91 sesiones |
 
-Lo que no salió bien también se cuenta: en este corte, 3 de 26 mensajes quedaron sin contestar. Ninguna de las 97 rutinas falló en su última vuelta; en el corte del 21 de noviembre habían fallado 3, que ya se corrigieron.
+Lo que no salió bien también se cuenta: en este corte, 4 de las 104 rutinas fallaron en su última vuelta (0 en el corte del 24 de noviembre). Entre el 26 y el 27 de noviembre varias rutinas pasaron a Gemini en Vertex AI para trabajar siempre dentro de créditos, y en ese cambio hubo tropiezos que se fueron corrigiendo.
 
 ## Lo que construyo
 
 | Proyecto | Qué resuelve | Estado | Con qué |
 |---|---|---|---|
-| [Constanza Harness](proyectos/constanza-harness.md) | Dirijo a un equipo de agentes de IA como a un equipo de personas: cada uno con su área, sus pendientes y su reporte | En uso diario | Servidor propio en AWS, Claude en Amazon Bedrock |
+| [Constanza Harness](proyectos/constanza-harness.md) | Dirijo a un equipo de agentes de IA como a un equipo de personas: cada uno con su área, sus pendientes y su reporte | En uso diario | Servidor propio en AWS, Claude en Amazon Bedrock y Gemini en Vertex AI |
 | [Motor Comercial](proyectos/motor-comercial.md) | Cada mañana el comercial sabe a quién escribirle, qué decirle y por qué | En uso diario | Cloudflare Workers, D1, TypeScript |
 | [Hunter](proyectos/hunter.md) | Ordena todo el CRM por institución y arma el plan de reactivación de 30 días | En uso diario | Cloudflare Workers, D1 |
 | [Brief Agendado](proyectos/brief-agendado.md) | Investiga al prospecto antes de la reunión y manda el brief el mismo día | En uso | Cloudflare Workers, calendarios |
@@ -97,7 +97,7 @@ flowchart TB
   end
   subgraph Operacion[Constanza · AWS en México]
     C[Constanza y su equipo de agentes<br/>servidor encendido 24/7]
-    BR[Claude en Amazon Bedrock]
+    BR[Claude en Amazon Bedrock<br/>y Gemini en Vertex AI]
   end
   subgraph Laboratorio[IA de admisiones · AWS y NVIDIA]
     D[(Conversaciones anónimas<br/>Amazon S3)]
@@ -125,13 +125,18 @@ flowchart TB
 | Programa | Estado | Qué ha permitido |
 |---|---|---|
 | AWS Activate | Aceptado en octubre de 2026: US$10,000 en créditos otorgados | Constanza encendida 24/7 en la región de AWS en México y el entrenamiento del modelo de admisiones |
+| AWS (créditos de Kiro) | Activado en noviembre de 2026: US$12,000 en créditos otorgados | Desarrollo asistido con IA para 4 personas del equipo |
+| AWS (créditos de migración) | Otorgados en noviembre de 2026: US$20,000 en créditos, vigentes hasta octubre de 2027 | Todavía sin un resultado que reportar |
+| Google for Startups Cloud Program | Aceptado en octubre de 2026: US$2,000 en créditos otorgados | Desde noviembre de 2026 corre rutinas de Constanza con Gemini en Vertex AI |
+| PostHog for Startups | Aceptado en noviembre de 2026: US$50,000 en créditos otorgados | Todavía sin un resultado que reportar |
 | NVIDIA Inception | Miembro desde octubre de 2026 | El modelo abierto Nemotron como base de la IA de admisiones; por esta vía llegaron los créditos de AWS |
 | Claude for Startups (Anthropic) | Aceptado en octubre de 2026 | El análisis de las llamadas grabadas del equipo |
 | Programa de ciberseguridad de Anthropic | Aceptado en noviembre de 2026 | Todavía sin un resultado que reportar |
 | Mistral for Startups | Postulación enviada el 16 de noviembre de 2026; en espera | — |
 | AWS Community Builders | En lista de espera desde el 20 de noviembre de 2026 | — |
+| OpenAI OpenWorks Partner | Nominación enviada el 24 de noviembre de 2026; en espera | — |
 
-También aporto al proyecto abierto [Hermes Agent](https://github.com/NousResearch/hermes-agent), sobre el que corre Constanza: 5 propuestas de mejora abiertas al 24 de noviembre de 2026.
+También aporto a proyectos de código abierto de agentes de IA: 9 propuestas de mejora abiertas al 27 de noviembre de 2026 —5 en [Hermes Agent](https://github.com/NousResearch/hermes-agent) (sobre el que corre Constanza), 2 en [Amazon Bedrock AgentCore Samples](https://github.com/awslabs/agentcore-samples), 1 en [Strands Agents SDK](https://github.com/strands-agents/harness-sdk) y 1 en [Agent Squad](https://github.com/2FastLabs/agent-squad)—.
 
 Detalle, con lo logrado y lo que sigue: [Programas y aliados](programas.md).
 
@@ -139,7 +144,7 @@ Detalle, con lo logrado y lo que sigue: [Programas y aliados](programas.md).
 
 **Lo logrado con lo recibido (octubre y noviembre de 2026)**
 
-- Una operación comercial que trabaja con 35 agentes y 97 rutinas (corte del 24 de noviembre de 2026), encendida todo el día en la región de AWS en México.
+- Una operación comercial que trabaja con 44 agentes y 104 rutinas (corte del 27 de noviembre de 2026), encendida todo el día en la región de AWS en México.
 - Una IA de admisiones propia, entrenada sobre NVIDIA Nemotron con conversaciones anónimas, y un examen a ciegas que dice a qué sistema confiarle una escuela. Resultados y advertencias: [el caso con AWS y NVIDIA](https://github.com/victorgalloo/superleads-ai-aws-nvidia/blob/main/README.es.md).
 - Todo documentado en público, en español y en inglés, con cifras fechadas y con lo que falló.
 

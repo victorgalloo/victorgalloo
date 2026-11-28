@@ -20,18 +20,18 @@ SuperLeads' code is proprietary and lives in private repositories. This profile 
 
 ## At a glance
 
-As of November 24, 2026. These figures come from my internal metrics board; an agent refreshes them every 3 days.
+As of November 27, 2026. These figures come from my internal metrics board; an agent refreshes them every 3 days.
 
 | What | Figure | What it counts |
 |---|---|---|
-| AI agents, each owning one area | 35 | One per social network, SEO, metrics, clients, events and more |
-| Active routines | 97 | My team only: scheduled tasks with a written procedure and an expected result. The whole server, with the rest of SuperLeads and internal ones, runs more |
-| Times they worked in 3 days | 285 | November 21 to 23; excludes those that run every few minutes |
-| My requests on record | 205, with 72% resolved | Everything I ask for stays on the list until it is closed |
-| Time to answer me | 2.7 minutes (median) | 23 of 26 messages answered in the period |
-| Work to date | About 1,290 saved changes across 540 sessions | August 11 to November 15, 2026 |
+| AI agents, each owning one area | 44 | One per social network, SEO, metrics, clients, events and more |
+| Active routines | 104 | My team only: scheduled tasks with a written procedure and an expected result. The whole server, with the rest of SuperLeads and internal ones, runs more |
+| Times they worked in 3 days | 306 | November 24 to 26; excludes those that run every few minutes |
+| My requests on record | 339 (243 closed; 56% of the 91 new ones in the period, resolved) | Everything I ask for stays on the list until it is closed |
+| Time to answer me | 2.5 minutes (median) | 5 of 5 messages on the page answered in the period |
+| Work to date | About 1,290 saved changes across 540 sessions | August 11 to November 15, 2026; November 24 to 26 added 259 changes across 91 sessions |
 
-What went wrong is counted too: at this cut, 3 of 26 messages went unanswered. None of the 97 routines failed on its last run; at the November 21 cut, 3 had failed, and they have since been fixed.
+What went wrong is counted too: at this cut, 4 of the 104 routines failed on their last run (0 at the November 24 cut). Between November 26 and 27 several routines moved to Gemini on Vertex AI so they always run within credits, and that move had stumbles that are being fixed.
 
 ## What I build
 
@@ -39,7 +39,7 @@ Project pages are written in Spanish; the two marked EN have an English version.
 
 | Project | What it solves | Status | Built with |
 |---|---|---|---|
-| [Constanza Harness](en/constanza-harness.md) (EN) | I run a team of AI agents like a team of people: each with an area, pending items and a report | In daily use | Own server on AWS, Claude on Amazon Bedrock |
+| [Constanza Harness](en/constanza-harness.md) (EN) | I run a team of AI agents like a team of people: each with an area, pending items and a report | In daily use | Own server on AWS, Claude on Amazon Bedrock and Gemini on Vertex AI |
 | [Motor Comercial](proyectos/motor-comercial.md) | Every morning each salesperson knows whom to write to, what to say and why | In daily use | Cloudflare Workers, D1, TypeScript |
 | [Hunter](proyectos/hunter.md) | Sorts the whole CRM by institution and builds the 30-day reactivation plan | In daily use | Cloudflare Workers, D1 |
 | [Brief Agendado](proyectos/brief-agendado.md) | Researches the prospect before the meeting and sends the brief the same day | In use | Cloudflare Workers, calendars |
@@ -99,7 +99,7 @@ flowchart TB
   end
   subgraph Operations[Constanza · AWS in Mexico]
     C[Constanza and her team of agents<br/>server on 24/7]
-    BR[Claude on Amazon Bedrock]
+    BR[Claude on Amazon Bedrock<br/>and Gemini on Vertex AI]
   end
   subgraph Lab[Admissions AI · AWS and NVIDIA]
     D[(Anonymized conversations<br/>Amazon S3)]
@@ -127,13 +127,18 @@ flowchart TB
 | Program | Status | What it has made possible |
 |---|---|---|
 | AWS Activate | Accepted in October 2026: US$10,000 in credits granted | Constanza running 24/7 in the AWS Mexico region, and the training of the admissions model |
+| AWS (Kiro credits) | Activated in November 2026: US$12,000 in credits granted | AI-assisted development for 4 people on the team |
+| AWS (migration credits) | Granted in November 2026: US$20,000 in credits, valid until October 2027 | No result to report yet |
+| Google for Startups Cloud Program | Accepted in October 2026: US$2,000 in credits granted | Since November 2026 it runs Constanza routines with Gemini on Vertex AI |
+| PostHog for Startups | Accepted in November 2026: US$50,000 in credits granted | No result to report yet |
 | NVIDIA Inception | Member since October 2026 | The open Nemotron model as the base of the admissions AI; the AWS credits came through this program |
 | Claude for Startups (Anthropic) | Accepted in October 2026 | The analysis of the team's recorded calls |
 | Anthropic cybersecurity program | Accepted in November 2026 | No result to report yet |
 | Mistral for Startups | Application sent on November 16, 2026; waiting | — |
 | AWS Community Builders | On the waitlist since November 20, 2026 | — |
+| OpenAI OpenWorks Partner | Nomination sent on November 24, 2026; waiting | — |
 
-I also contribute to the open-source project [Hermes Agent](https://github.com/NousResearch/hermes-agent), which Constanza runs on: 5 open pull requests as of November 24, 2026.
+I also contribute to open-source AI agent projects: 9 open pull requests as of November 27, 2026 — 5 to [Hermes Agent](https://github.com/NousResearch/hermes-agent) (which Constanza runs on), 2 to [Amazon Bedrock AgentCore Samples](https://github.com/awslabs/agentcore-samples), 1 to [Strands Agents SDK](https://github.com/strands-agents/harness-sdk) and 1 to [Agent Squad](https://github.com/2FastLabs/agent-squad).
 
 Detail, with what was achieved and what comes next: [Programs and partners](en/programs.md).
 
@@ -141,7 +146,7 @@ Detail, with what was achieved and what comes next: [Programs and partners](en/p
 
 **Achieved with what was received (October and November 2026)**
 
-- A commercial operation that works with 35 agents and 97 routines (as of November 24, 2026), running all day in the AWS Mexico region.
+- A commercial operation that works with 44 agents and 104 routines (as of November 27, 2026), running all day in the AWS Mexico region.
 - Our own admissions AI, trained on NVIDIA Nemotron with anonymized conversations, and a blind exam that tells us which system to trust with a school. Results and caveats: [the AWS and NVIDIA case](https://github.com/victorgalloo/superleads-ai-aws-nvidia).
 - Everything documented in public, in Spanish and English, with dated figures and with what failed.
 
